@@ -1,0 +1,16 @@
+body{
+    background: linear-gradient(to top, pink, #9F9);
+}
+#header{
+  width: auto;
+  height: 200px;
+  background:white;
+}
+div#header h3{
+  text-align: center;
+}
+
+.fotos img{
+	width:200px;
+	height:auto;
+}
