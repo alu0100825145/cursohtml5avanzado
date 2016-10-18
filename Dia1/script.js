@@ -19,7 +19,4 @@ ouibounce(document.getElementById('modal-card'), {
   timer: 5						// espera (evita falsos positivos)
 });
 
-// Opcional (activa a los 5 segundos)
-var modal = ouibounce(...);
-setTimeout(function() { modal.fire() }, 5000);	// muestra a los 5seg
 
