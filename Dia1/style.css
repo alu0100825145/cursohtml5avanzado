@@ -18,3 +18,8 @@ div#header h3{
 	max-width: 640px;	/* Tamaño (máximo) de ancho de las imágenes */
   	margin: auto;
 }
+.ba-slider {
+  width: 640px;
+  margin: auto;
+  border: 5px solid #000;
+}
