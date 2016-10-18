@@ -24,8 +24,8 @@ $(document).ready(function() {
 
 function mensaje() {
   swal({
-    title: 'Título',
-    text: 'Mensaje de texto',
+    title: 'Balones Mikasa',
+    text: 'No te quedes sin comprar estos magníficos balones de voley',
     imageUrl: 'imagenes/voley.jpg',
     imageWidth: 440,
     imageHeight: 250,
