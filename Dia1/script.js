@@ -22,3 +22,16 @@ $(document).ready(function() {
 });
 
 
+function mensaje() {
+  swal({
+    title: 'Título',
+    text: 'Mensaje de texto',
+    imageUrl: 'imagenes/voley.jpg',
+    imageWidth: 440,
+    imageHeight: 250,
+    padding: 20,
+    animation: false,
+  });
+}
+
+
