@@ -27,6 +27,7 @@ function mensaje() {
     title: 'Balones Mikasa',
     text: 'No te quedes sin comprar estos magníficos balones de voley',
     imageUrl: 'imagenes/voley.jpg',
+    confirmButtonText: '<i class="fa fa-thumbs-up"></i> ¡Bien!',
     imageWidth: 440,
     imageHeight: 250,
     padding: 20,
