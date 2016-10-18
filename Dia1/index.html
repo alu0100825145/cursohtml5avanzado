@@ -22,6 +22,10 @@
   <!--Archivos css y js-->
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="script.js"></script>
+	
+  <!--Archivos Modal-->	
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ouibounce/0.0.11/ouibounce.min.js"></script>
+	
 
   <!--CSSGram-->
 <!--  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/una/CSSgram/master/source/css/cssgram.min.css
@@ -42,6 +46,20 @@
 
 </head>
 <body>
+	
+<!-- Resto de contenido de la página -->
+<div id="modal-card">
+  <h4>¡Ey, amigo!</h4>
+  <p>¿Estás seguro de que vas a irte? Déjame tu e-mail, y te envío un ebook gratis:</p>
+  <form action="/send/" method="post">
+    <input type="text" name="email" required placeholder="tuemail@gmail.com">
+    <input type="submit" value="▶">
+  </form>
+  <a href="#" onClick="document.getElementById('modal-card').remove()">Sí, tío. Bye.</a>
+  <!-- Fondo gris -->
+  <div class="modal-background"></div>
+</div>	
+	
 <!--
   <div id="header">
     <h3>Día 1</h3>
@@ -55,25 +73,25 @@
   	<img class="moon" src="imagenes/voley.jpg" onClick="this.classList.add('magictime','foolishIn')">
   </div>
 -->
-
+<!--
   <div class="slider">
     <div><img src="imagenes/voley.jpg" alt="Foto1"></div>
     <div><img src="imagenes/mvp.jpg" alt="Foto2"></div>
     <div><img src="imagenes/medallas.jpg" alt="Foto3"></div>
     <div><img src="imagenes/copa.jpg" alt="Foto4"></div>
   </div>
-	
+-->
+<!-- Acordeón 1 -->
+<!--	
 <div data-accordion-group>
-  <!-- Acordeón 1 -->
   <div class="accordion" data-accordion>
     <div data-control>Control</div>
     <div data-content>
 <div>Contenido</div>
 	</div>
   </div>
-  <!-- Acordeón 2 -->
 </div>
-	
+-->	
 <!-- before-after slider -->
 <!--	
 <div class="ba-slider">
