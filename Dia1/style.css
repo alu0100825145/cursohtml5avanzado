@@ -14,3 +14,7 @@ div#header h3{
 	width:200px;
 	height:auto;
 }
+.slider{
+	max-width: 640px;	/* Tamaño (máximo) de ancho de las imágenes */
+  	margin: auto;
+}
