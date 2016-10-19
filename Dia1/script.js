@@ -49,3 +49,15 @@ $(document).ready(function() {
 		list: ["Ada", "Java", "JavaScript", "Brainfuck", "LOLCODE", "Node.js", "Ruby on Rails"]
 	});
 });
+
+$('#input-tags').selectize({
+    delimiter: ',',
+    persist: false,
+    create: function(input) {
+      return { 
+        value: input,
+        text: input 
+      }
+    }
+});
+
