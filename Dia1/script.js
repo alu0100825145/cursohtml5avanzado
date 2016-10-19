@@ -43,7 +43,9 @@ $(document).ready(function() {
 });
 
 /* Javascript */
-var input = document.getElementById('datos');
-new Awesomplete(input, {
-	dataList: ["Ada", "Java", "JavaScript", "Brainfuck", "LOLCODE", "Node.js", "Ruby on Rails"]
+$(document).ready(function() {
+	var input = document.getElementById('datos');
+	new Awesomplete(input, {
+		list: ["Ada", "Java", "JavaScript", "Brainfuck", "LOLCODE", "Node.js", "Ruby on Rails"]
+	});
 });
