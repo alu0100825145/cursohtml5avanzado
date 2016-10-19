@@ -52,6 +52,9 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 $('#input-tags').selectize({
+	    plugins: ['remove_button', 
+              'drag_drop',
+              'optgroup_columns'],
     delimiter: ',',
     persist: false,
     create: function(input) {
@@ -67,11 +70,6 @@ function viewTags() {
   console.log(tags.value.split(','));
 }
 	
-$('#input-tags').selectize({
-    plugins: ['remove_button', 
-              'drag_drop',
-              'optgroup_columns'],
-});
 });
 
 
