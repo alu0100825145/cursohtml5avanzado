@@ -50,6 +50,7 @@ $(document).ready(function() {
 	});
 });
 
+$(document).ready(function() {
 $('#input-tags').selectize({
     delimiter: ',',
     persist: false,
@@ -65,4 +66,4 @@ function viewTags() {
   tags = document.getElementById('input-tags');
   console.log(tags.value.split(','));
 }
-
+});
