@@ -81,7 +81,7 @@ $(document).ready(function() {
 	    // del código HTML
 	});
 
-	$('#trumbowyg').trumbowyg('html'); // Obtienes el HTML generado
+	$('.editor').trumbowyg('html'); // Obtienes el HTML generado
 	
 	$('.editor').trumbowyg({
   lang: 'es', // Idioma (es.min.js incluido)
