@@ -60,4 +60,9 @@ $('#input-tags').selectize({
       }
     }
 });
+// return ['tag1', 'tag2', …]
+function viewTags() {
+  tags = document.getElementById('input-tags');
+  console.log(tags.value.split(','));
+}
 
