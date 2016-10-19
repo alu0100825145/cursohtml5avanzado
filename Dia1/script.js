@@ -35,10 +35,10 @@ function mensaje() {
   });
 }
 
-// Opción 1: Inicializar cookieBar (genérico, en inglés)
+// Opción 2: Personalizar mensaje (indicar clase)
 $(document).ready(function() {
-  $.cookieBar();
-  closeButton: '.close';
+  $('.cookie-message').cookieBar({
+    closeButton: '.close'
+  });
 });
-
 
