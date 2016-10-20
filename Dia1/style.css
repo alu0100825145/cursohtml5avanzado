@@ -89,6 +89,10 @@ div#header h3{
   color: white!important;
   border-radius: 5px;
 }
-#tres{
-	color:red;
+
+
+/* CSS */
+.chart {
+  width: 600px;
+  height: 400px;
 }
