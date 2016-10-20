@@ -159,3 +159,9 @@ $(document).ready(function() {
 	  speed: 500,				// Velocidad del giro
 	});
 });
+
+var PSV = PhotoSphereViewer({
+  panorama:  'imagenes/hermigua.jpg',
+  container: 'photosphere',
+  loading_img: 'https://media.giphy.com/media/TtZqlvHid7BjW/giphy.gif',
+});
