@@ -135,7 +135,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 	var sample = 'CD Tenerife->UD Las Palmas: Siempre gana a la';
-	var sample1 = 'Título: Realidad \n CD Tenerife->UD Las Palmas: Siempre gana a la';
+	var sample1 = 'Título: Realidad';
 	var sample2 = 'B-->C: Línea a rayas';
 	var sample3 = 'C->>D: Línea con flecha hueca';
 	var sample4 = 'D-->>E: Línea a rayas con flecha hueca';
