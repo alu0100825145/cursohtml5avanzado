@@ -141,7 +141,7 @@ $(document).ready(function() {
 	var sample4 = 'D-->>E: Línea a rayas con flecha hueca';
 	var sample5 = 'A->C: Uno \n B->C: Dos';
 
-	var diagram = Diagram.parse(sample1);
+	var diagram = Diagram.parse(sample);
 
 	diagram.drawSVG('diagram', {
 		theme: 'hand'	// o 'simple'
