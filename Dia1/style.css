@@ -101,3 +101,12 @@ div#header h3{
 .chart .ct-series-c path {  
   stroke: #0F0;
 }
+/* Orden ascendente */
+table th.sort-up::after {
+  content:"⏷";
+}
+
+/* Orden descendente */
+table th.sort-down::after {
+  content:"⏶";
+}
