@@ -116,3 +116,9 @@ table th.sort-down::after {
   height: 400px;
   margin: auto;
 }
+
+// CSS3
+#card > img {
+  border: 15px solid #FFF;
+  box-shadow: 0 0 10px RGBA(0,0,0, .5);
+}
