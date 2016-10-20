@@ -161,7 +161,7 @@ $(document).ready(function() {
 });
 $(document).ready(function() {
 	var PSV = PhotoSphereViewer({
-	  panorama:  'imagenes/hermigua.jpg',
+	  panorama:  'imagenes/exterior.jpg',
 	  container: 'photosphere',
 	  loading_img: 'https://media.giphy.com/media/TtZqlvHid7BjW/giphy.gif',
 	});
