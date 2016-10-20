@@ -122,3 +122,9 @@ table th.sort-down::after {
   border: 15px solid #FFF;
   box-shadow: 0 0 10px RGBA(0,0,0, .5);
 }
+
+#photosphere {
+  width: 600px;
+  height: 400px;
+  background: #DDD;
+}
