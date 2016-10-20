@@ -147,3 +147,7 @@ $(document).ready(function() {
 		theme: 'hand'	// o 'simple'
 	});
 });
+$(document).ready(function() {
+	var tabla = document.getElementById('tablesort');
+	new Tablesort(tabla);
+});
