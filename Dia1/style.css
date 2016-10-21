@@ -128,3 +128,7 @@ table th.sort-down::after {
   height: 400px;
   background: #DDD;
 }
+
+#osss{
+	background: linear-gradient(to top, blue, #9F9);	
+}
