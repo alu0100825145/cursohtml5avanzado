@@ -165,4 +165,7 @@ $(document).ready(function() {
 	  container: 'photosphere',
 	  loading_img: 'https://media.giphy.com/media/TtZqlvHid7BjW/giphy.gif',
 	});
+
+$(document).ready(function() {
+	impress().init();
 });
