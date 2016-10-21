@@ -166,6 +166,6 @@ $(document).ready(function() {
 	  loading_img: 'https://media.giphy.com/media/TtZqlvHid7BjW/giphy.gif',
 	});
 
-window.addEventListener('DOMContentLoaded', function() {
+$(document).ready(function() {
 	impress().init();
 });
