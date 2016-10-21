@@ -73,7 +73,7 @@
 	 <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/mistic100/Photo-Sphere-Viewer/master/dist/photo-sphere-viewer.min.css">
 
 
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/impress.js/0.5.3/impress.min.js"></script>
 
 
 
@@ -109,150 +109,19 @@
 
 </head>
 <body>
-<!-- Resto de contenido de la página -->
-<!--	
-<div id="modal-card">
-  <h4>¡Ey, amigo!</h4>
-  <p>¿Estás seguro de que vas a irte? Déjame tu e-mail, y te envío un ebook gratis:</p>
-  <form action="/send/" method="post">
-    <input type="text" name="email" required placeholder="tuemail@gmail.com">
-    <input type="submit" value="▶">
-  </form>
-  <a href="#" onClick="document.getElementById('modal-card').remove()">Sí, tío. Bye.</a>
-  <div class="modal-background"></div>
-</div>	
--->	
-<!--
-  <div id="header">
-    <h3>Día 1</h3>
-  </div>
--->
-<!-- 
-  <div class="fotos">
-  	<img class="shake-chunk" src="imagenes/voley.jpg">
-  	<img class="aden magictime foolishIn" src="imagenes/voley.jpg">
-  	<img class="reyes animated zoomIn" src="imagenes/voley.jpg">
-  	<img class="moon" src="imagenes/voley.jpg" onClick="this.classList.add('magictime','foolishIn')">
-  </div>
--->
-
-  <div class="slider">
-    <div><img src="imagenes/voley.jpg" alt="Foto1"></div>
-    <div><img src="imagenes/mvp.jpg" alt="Foto2"></div>
-    <div><img src="imagenes/medallas.jpg" alt="Foto3"></div>
-    <div><img src="imagenes/copa.jpg" alt="Foto4"></div>
-  </div>
 	
-<br>
-<button class="button button-primary button-3d button-pill" onClick="mensaje()">Comprar balones</button>
-<!-- Acordeón 1 -->
-<!--	
-<div data-accordion-group>
-  <div class="accordion" data-accordion>
-    <div data-control>Control</div>
-    <div data-content>
-<div>Contenido</div>
-	</div>
+<!-- Presentación -->
+<div id="impress">
+  <div class="step">
+    <!-- Diapositiva 1 -->
+	  <img src="imagenes/voley.jpg" alt="Voley" />
   </div>
+  <div class="step">
+    <!-- Diapositiva 2 -->
+	  <img src="imagenes/medallas.jpg" alt="medallas" />
+  </div>
+  <!-- ... -->
 </div>
--->	
-<!-- before-after slider -->
-<!--	
-<div class="ba-slider">
-  <img src="imagenes/medallas.jpg" alt="Después">
-  <div class="resize">
-    <img src="imagenes/voley.jpg" alt="Antes">
-  </div>
-  <span class="handle"></span>
-</div>
--->
-<!--
-  <div class="botones">
-    <a class="button button-royal button-3d button-glow" href="#">Botón</a>
-    <a class="button button-caution button-3d button-rounded" href="#">Botón</a>
-    <a class="button button-primary button-3d button-pill" href="#">Botón</a>
-  </div> 
---> 
 	
-<!-- Opción 2: Personalizar mensaje -->
-<div class="cookie-message">
-  <p>Esta web utiliza cookies. Si sigue navegando, se entiende que acepta las condiciones de uso. 
-  <!-- Botón de cerrar -->
-  <a class="close" href="#">Cerrar</a></p>
-</div>	
-	
-<!-- HTML5 -->
-<br>
-<br>
-<input id="datos">
-	<p>Selectize: </p>
-<input id="input-tags">
-<br>
-<br>
-<br>
-<br>
-	
-<textarea class="editor"></textarea>
-<br>
-<br>
-<br>
-<br>	
-<!-- HTML5 -->
-<!--<div class="chart"></div>-->
-<!-- HTML5 -->
-<div id="diagram"></div>
-	
-	
-<table id="tablesort">
-<thead>
-  <tr>
-    <th class="no-sort">#</th>
-    <th>Equipo</th>
-    <th>Puntos</th>
-  </tr>
-</thead>
-<tr>
-  <td>1</td>
-  <td>Atleti</td>
-  <td>18</td>
-</tr>
-<tr>
-  <td>2</td>
-  <td>R.Madrid</td>
-  <td>18</td>
-</tr>
-<tr>
-  <td>3</td>
-  <td>Sevilla</td>
-  <td>17</td>
-</tr>
-<tr>
-  <td>4</td>
-  <td>FC Barcelona</td>
-  <td>16</td>
-</tr>
-<tr>
-  <td>5</td>
-  <td>Villarreal</td>
-  <td>16</td>
-</tr>
-</table>
-	
-	<!-- Tarjeta -->
-<div id="card">
-  <!-- Cara A -->
-  <img class="front" src="imagenes/voley.jpg">
-  <!-- Cara B -->
-  <img class="back" src="imagenes/medallas.jpg">
-</div>
-<button class="button button-primary button-3d button-pill" onClick="$('#card').flip('toggle')">Girar</button>
-<br>
-<br>
-<br>
-<br>		
-
-
-
-<div id="photosphere"></div>	
 </body>
 </html>
