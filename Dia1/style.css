@@ -130,7 +130,8 @@ table th.sort-down::after {
 }
 
 #osss{
-	background: linear-gradient(to top, blue, #9F9);	
+	background: linear-gradient(to top, black, #9F9);
+	text-align: center;
 }
 div#reloj{
   display:flex;
